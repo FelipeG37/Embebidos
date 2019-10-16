@@ -1,0 +1,66 @@
+﻿Sistemas embebidos. Anteproyecto
+
+
+Sistemas embebidos
+Universidad Nacional de Colombia
+
+
+Miembros
+
+
+Título: Sistema de protección y monitoreo All-in-one AGE (Agua, Gas y Electricidad)
+
+
+Planteamiento del problema
+Se presentan siniestros no deseados debido a fugas y fallas imprevistas en sistemas de gas, de agua y de electricidad en los hogares de las cuales no se tiene conocimiento en tiempo real. 
+
+
+Antecedentes
+
+
+Los incendios han sido un impulso importante para el continuo desarrollo de la humanidad en materia de prevención y control. Los controles de éstos se remontan hacia la época del emperador Nerón, en la antigua Roma, en donde se escribe un Código Constructivo para viviendas que precisaba el uso de materiales resistentes al fuego. Sin embargo, la máxima seriedad hacia los incendios no fue otorgada sino hasta el siglo XVIII con la llegada de la primera revolución industrial, pues los procesos industriales realizados por fábricas obligaban a tener algún tipo de control ante imprevistos, a cambio de mantener su producción. La ingeniería moderna contra incendios nació después de una cantidad masiva de desastres en Estados Unidos, en 1896, con la fundación de NFPA (Asociación Nacional de Protección contra el Fuego).
+
+
+En la industria existen innumerables sistemas de alerta de incendios. Por ejemplo, los detectores de humo pueden detectar temperaturas o humo por encima de un umbral determinado y accionar una alarma para avisar del suceso al propietario. También existen los rociadores de incendios que pueden activarse al trabajar en conjunto con los elementos detectores de humo mencionados anteriormente.
+
+
+
+
+
+
+Justificación
+
+
+Objetivos
+        Objetivo general
+* Asegurar la integridad de los hogares mediante un sistema inteligente que prevenga catástrofes relacionadas con la fugas de gas y de agua y anomalías eléctricas.
+        Objetivos específicos
+* Prevenir inundaciones relacionadas con las fugas de agua con la medición oportuna, precisa y continua del caudal del agua en las tuberías de los hogares. 
+* Prevenir incendios provocados por cortocircuitos en los hogares por medio de la medición diferencial de corriente eléctrica.
+
+
+Alcances y limitaciones del proyecto
+        
+
+
+
+
+Vigilancia tecnológica - (¿Quiénes son nuestros aliados?¿Competencia?)
+
+
+
+
+¿Por qué somos los indicados para desarrollar el proyecto? Responder en el doc
+
+
+
+
+Cronograma y descripción de actividades
+{Tablit}
+
+
+Presupuesto
+
+
+Bibliografía
+La historia de la ingeniería de protección contra incendios. Jaime A. Mocada. https://www.nfpajla.org/columnas/punto-de-vista/387-la-historia-de-la-ingenieria-de-proteccion-contra-incendios
