@@ -5,3 +5,9 @@ Esto, debido a que generalmente cuando alguno de estos fallos ocurre, no se dete
 
 ### Bitácora de trabajo
 ![](https://github.com/FelipeG37/Embebidos/blob/master/Bit%C3%A1cora.png)
+
+Al inicio del semestre se tenían varias propuestas para trabajar, una de ellas era la realización de un arenero para gatos automatizado, otra iba encaminada a la recolección de energía desde el hogar, sin embargo, luego de realizar las tablas (poner nombre de las tablas) y discutir, se decidió trabajar en este proyecto, como conclusión de la comparación de los resultados de cada una de las tablas, debido a que cumplía varios objetivos que se especificaron en clase.
+
+En la fecha número 1, se subieron al Github los primeros avances del proyecto, en los cuales se empezaban a identificar los objetivos del trabajo y la justificación del mismo, además de la tabla casi finalizada.
+
+En la fecha número dos se hizo compra de 
