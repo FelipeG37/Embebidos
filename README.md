@@ -44,3 +44,5 @@ En la novena fecha se tiene la base de datos totalmente completa, esta muestra l
 
 En la décima y última fecha, se logra tener listo el código del sensor DHT para su implementación dentro del programa.
 
+El día dos de febrero, se tienen los códigos de los dos sensores restantes en arduino y la base de la FPGA para iniciar el trabajo allí. Se delegan tareas para desarrollar el diagrama en el Ice Studio y para implementar los códigos en el main del programa.
+
