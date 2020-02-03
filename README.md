@@ -10,4 +10,8 @@ Al inicio del semestre se tenían varias propuestas para trabajar, una de ellas 
 
 En la fecha número 1, se subieron al Github los primeros avances del proyecto, en los cuales se empezaban a identificar los objetivos del trabajo y la justificación del mismo, además de la tabla casi finalizada.
 
-En la fecha número dos se hizo compra de 
+En la fecha número dos se hizo compra del módulo WiFi, del sensor de gas y del detector de errores eléctrico, estos se muestran a continuación:
+
+Caudalímetro YF-S201:
+
+Sensor de corriente ACS712T:
