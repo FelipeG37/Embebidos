@@ -14,4 +14,7 @@ En la fecha número dos se hizo compra del módulo WiFi, del sensor de gas y del
 
 Caudalímetro YF-S201:
 
+### Bitácora de trabajo
+![](https://github.com/FelipeG37/Embebidos/blob/master/Caudal%C3%ADmetro.jpg)
+
 Sensor de corriente ACS712T:
