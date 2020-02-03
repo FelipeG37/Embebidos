@@ -38,4 +38,9 @@ En la sexta fecha se adelanta el trabajo investigativo que permite generar una c
 
 En la séptima fecha se tiene lista la comunicación entre el ESP32 y la Raspberry y entre la Raspberry el Node red. La comunicación funciona de manera correcta, pues se realizó una prueba con un sensor DHT11 y tanto la temperatura como la humedad, se visuabilizaban de manera perfectamente. Se vuelven a distribuir tareas para buscar cómo acoplar todo con actuadores, probar la comunicación entre la FPGA y el ESP32, y por último, utilizar la dashboard que el Node red trae de manera predeterminada.
 
+En la octava fecha, se hace la entrega del anteproyecto totalmente finalizado, el cual evidencia un trabajo que fue continuo desde el inicio y que además incluye la explicación del modelo del prototipo, el análisis del mercado y un cronograma de trabajo.
+
+En la novena fecha se tiene la base de datos totalmente completa, esta muestra los valores de la medición de los distintos sensores con la respectiva fecha de medición, esto para lograr que el usuario pueda permitirse observar el histórico de medición y de esta manera, logre evidenciar de qué manera está utilizando el servicio y en caso de presentarse una anomalía, poder saber en qué momento ocurrió.
+
+En la décima y última fecha, se logra tener listo el código del sensor DHT para su implementación dentro del programa.
 
