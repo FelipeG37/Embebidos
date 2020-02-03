@@ -21,5 +21,7 @@ Sensor de corriente ACS712T:
 ![](https://github.com/FelipeG37/Embebidos/blob/master/El%C3%A9ctrico.jpg)
 
 En la fecha número tres se actualiza el documento del anteproyecto con la justificación del proyecto y la descripción de cada una de las actividades a través de un cronograma en forma de tabla, que permitiría tener un mayor control sobre las fechas de trabajo del proyecto.
+Luego de esto, se hace una nueva repartición de tareas, enfocada en la investigación de ciertas tareas para su posterior desarrollo:
+Primero, se define buscar los pasos necesarios para la creación de un servidor local (página web) y su costo. Segundo, queda como tarea revisar el diseño de la caja 3D para su posterior impresión. Tercero, queda como tarea finalizar todo el anteproyecto y terminar las dos tablas del proyecto para subirlas al archivo del Github. Cuarto, se hace la búsqueda de los pasos que permitan generar una comunicación entre la BlackIce II y el módulo WiFi. Por último, se busca todo lo relacionado con los pasos necesarios para que los verilog puedan leer la información de los sensores y además, puedan enviarla a los actuadores.
 
 
