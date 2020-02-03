@@ -12,6 +12,10 @@ En la fecha número uno, se subieron al Github los primeros avances del proyecto
 
 En la fecha número dos se hizo compra del módulo WiFi, del sensor de gas y del detector de errores eléctrico, estos se muestran a continuación:
 
+Módulo WiFi:
+
+![](https://github.com/FelipeG37/Embebidos/blob/master/M%C3%B3dulo%20WiFi.jpg)
+
 Caudalímetro YF-S201:
 
 ![](https://github.com/FelipeG37/Embebidos/blob/master/Caudal%C3%ADmetro.jpg)
