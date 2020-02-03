@@ -30,5 +30,6 @@ En la quinta fecha, se finaliza todo el anteproyecto con la parte de vigilancia 
 
 En la sexta fecha se adelanta el trabajo investigativo que permite generar una comunicación el ESP32 y el node red. También se generan avances en la creación de la base de datos que tendrá el programa, que permita el almacenamiento de la información del monitoreo.
 
+En la séptima fecha se tiene lista la comunicación entre el ESP32 y la Raspberry y entre la Raspberry el Node red. La comunicación funciona de manera correcta, pues se realizó una prueba con un sensor DHT11 y tanto la temperatura como la humedad, se visuabilizaban de manera perfectamente. Se vuelven a distribuir tareas para buscar cómo acoplar todo con actuadores, probar la comunicación entre la FPGA y el ESP32, y por último, utilizar la dashboard que el Node red trae de manera predeterminada.
 
 
