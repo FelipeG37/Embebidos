@@ -28,7 +28,9 @@ En la fecha número tres se actualiza el documento del anteproyecto con la justi
 Luego de esto, se hace una nueva repartición de tareas, enfocada en la investigación de ciertas tareas para su posterior desarrollo:
 Primero, se define buscar los pasos necesarios para la creación de un servidor local (página web) y su costo. Segundo, queda como tarea revisar el diseño de la caja 3D para su posterior impresión. Tercero, queda como tarea finalizar todo el anteproyecto y terminar las dos tablas del proyecto para subirlas al archivo del Github. Cuarto, se hace la búsqueda de los pasos que permitan generar una comunicación entre la BlackIce II y el módulo WiFi. Por último, se busca todo lo relacionado con los pasos necesarios para que los verilog puedan leer la información de los sensores y además, puedan enviarla a los actuadores.
 
-En la cuarta fecha, se hace entrega de la tarjeta BlackIce II, que se puede ver a continuación:
+En la cuarta fecha, se hace entrega de la tarjeta BlackIce II con la que se trabajará, a continuación se puede ver:
+
+![](https://github.com/FelipeG37/Embebidos/blob/master/Black%20Ice%20II.jpg)
 
 En la quinta fecha, se finaliza todo el anteproyecto con la parte de vigilancia tecnológica desarrollada, ítem importante, pues permite hacer un análisis concreto sobre quiénes son o podrían ser, los aliados del proyecto, pero también da vía libre para poder identificar quiénes serían la competencia.
 
