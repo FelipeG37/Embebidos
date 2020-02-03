@@ -8,7 +8,7 @@ Esto, debido a que generalmente cuando alguno de estos fallos ocurre, no se dete
 
 Al inicio del semestre se tenían varias propuestas para trabajar, una de ellas era la realización de un arenero para gatos automatizado, otra iba encaminada a la recolección de energía desde el hogar, sin embargo, luego de realizar las matrices que permiten analizar varios elementos de cada una de las propuestas, se decidió trabajar en este proyecto, Hogares seguros, como conclusión de la comparación de los resultados de cada una de las tablas, debido a que cumplía varios objetivos que se especificaron en clase.
 
-En la fecha número uno, se subieron al Github los primeros avances del proyecto, en los cuales se empezaban a identificar los objetivos del trabajo y la justificación del mismo, además de la tabla casi finalizada.
+En la fecha número uno, se subieron al Github los primeros avances del proyecto, en los cuales se empezaban a identificar los objetivos del trabajo y la justificación del mismo, además de la matriz canvas casi finalizada.
 
 En la fecha número dos se hizo compra del módulo WiFi, del sensor de gas y del detector de errores eléctrico, estos se muestran a continuación:
 
