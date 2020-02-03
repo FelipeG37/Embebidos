@@ -19,3 +19,7 @@ Caudalímetro YF-S201:
 Sensor de corriente ACS712T:
 
 ![](https://github.com/FelipeG37/Embebidos/blob/master/El%C3%A9ctrico.jpg)
+
+En la fecha número tres se actualiza el documento del anteproyecto con la justificación del proyecto y la descripción de cada una de las actividades a través de un cronograma en forma de tabla, que permitiría tener un mayor control sobre las fechas de trabajo del proyecto.
+
+
