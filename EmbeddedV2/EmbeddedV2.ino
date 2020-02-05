@@ -105,7 +105,7 @@ Serial.begin(115200);
   WiFi.disconnect();
   delay(3000);
   Serial.println("START");
-  WiFi.begin("Se metiotro pejelagahto","bonnechance");
+  WiFi.begin("Embebidos-Hogar_Inteligente","bonnechance");
   while ((!(WiFi.status() == WL_CONNECTED))){
     delay(300);
     Serial.print("...");
