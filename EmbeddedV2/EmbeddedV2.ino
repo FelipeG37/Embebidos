@@ -5,13 +5,25 @@
 /////////////////////////////////
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
+#include "Adafruit_Sensor.h"
 #include <WiFi.h>
 #include "DHT.h"
 //DHT VARIABLES
 float  humidityValue = 0;
 float temperatureValue = 0;
-
+float gasValue = 0;
 const int DHTPin = 23;
+
+
+
+//gaaaasss sensor variables
+#define         MQ1                       (13)     //define la entrada analogica para el sensor
+#define         RL_VALOR             (1)     //define el valor de la resistencia mde carga en kilo ohms
+#define         RAL       (9.83)  // resistencia del sensor en el aire limpio / RO, que se deriva de la                                             tabla de la hoja de datos
+#define         GAS_LP                      (0)
+String inputstring = "";                                                        //Cadena recibida desde el PC
+float           LPCurve[3]  =  {2.3,0.21,-0.47};
+float           Ro           =  10;
 
 //CURRENT SENSOR VARIABLES 
 
@@ -40,9 +52,55 @@ boolean MQTT_connect() {  int8_t ret; if (mqtt.connected()) {    return true; } 
 Adafruit_MQTT_Publish 	temperature = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/temperature");
 Adafruit_MQTT_Publish 	humidity = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/humidity");
 Adafruit_MQTT_Publish   current = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/current");
+
+
+
+float Calibracion(float mq_pin){
+  int i;
+  float val=0;
+    for (i=0;i<50;i++) {                                                                               //tomar múltiples muestras
+    val += calc_res(analogRead(mq_pin));
+    delay(500);
+  }
+  val = val/50;                                                                                         //calcular el valor medio
+  val = val/RAL;
+  return val;
+}
+
+
+float calc_res(int raw_adc)
+{
+  return ( ((float)RL_VALOR*(1023-raw_adc)/raw_adc));
+}
+ 
+ 
+float lecturaMQ(int mq_pin){
+  int i;
+  float rs=0;
+  for (i=0;i<5;i++) {
+    rs += calc_res(analogRead(mq_pin));
+    delay(50);
+  }
+rs = rs/5;
+return rs;
+}
+ 
+int porcentaje_gas(float rs_ro_ratio, int gas_id){
+   if ( gas_id == GAS_LP ) {
+     return porcentaje_gas(rs_ro_ratio,LPCurve);
+   }
+  return 0;
+}
+ 
+int porcentaje_gas(float rs_ro_ratio, float *pcurve){
+  return (pow(10, (((log(rs_ro_ratio)-pcurve[1])/pcurve[2]) + pcurve[0])));
+}
+
+
 void setup()
 {
 Serial.begin(115200);
+  Ro = Calibracion(MQ1);                        //Calibrando el sensor. Por favor de asegurarse que el sensor se encuentre en una zona de aire limpio mientras se calibra
   dht.begin(); // O.o
   WiFi.disconnect();
   delay(3000);
@@ -86,7 +144,7 @@ currentValue= leerCorriente();
 //END CURRENT SENSOR
 
 
-
+gasValue=porcentaje_gas(lecturaMQ(MQ1)/Ro,GAS_LP);
 
 // BEGIN DHT11 SENSOR {
 //int now = millis();
