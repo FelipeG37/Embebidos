@@ -32,7 +32,7 @@ float           Ro           =  10;
 float sensibilidad = 0.066; //30A
 float ruido= 0.000;
 const int sensorRead = 4; //GPIO 6
-float valorReposo=0;
+float valorReposo=1.65;
 float intensidadPico=0;
 float tensionDeRed =120.0;
 float  currentValue = 0;
@@ -133,7 +133,7 @@ float leerCorriente()
 
   while(millis()-tiempo<500)
   {
-    valorVoltajeSensor=analogRead(sensorRead) * (5.0/4095.0);
+    valorVoltajeSensor=analogRead(sensorRead) * (3.3/4095.0);
     corriente=0.9*corriente+0.1*((valorVoltajeSensor-valorReposo)/sensibilidad);
     if(corriente>intensidadMaxima)intensidadMaxima=corriente;
     if(corriente<intensidadMinima)intensidadMinima=corriente;
